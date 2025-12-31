@@ -8,6 +8,14 @@ export default defineNuxtConfig({
    vite: {
       plugins: [tailwindcss()],
    },
+   components: {
+      dirs: [
+         {
+            path: "~/components",
+            pathPrefix: false
+         }
+      ]
+   },
    fonts: {
       defaults: {
          weights: [300, 400, 500, 600, 700, 800, 900]

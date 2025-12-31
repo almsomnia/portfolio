@@ -5,5 +5,5 @@
 }
 
 :root {
-    @apply bg-slate-950 text-slate-400 antialiased selection:bg-emerald-400 selection:text-emerald-900;
+    @apply bg-slate-950 text-slate-400 antialiased selection:bg-emerald-400 selection:text-emerald-900 scroll-smooth;
 }
