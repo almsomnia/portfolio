@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-    --font-sans: "Inter", sans-serif;
+    --font-sans: "Plus Jakarta Sans", sans-serif;
 }
 
 :root {
-    @apply bg-gray-900 text-gray-400 antialiased selection:bg-emerald-400 selection:text-emerald-900;
+    @apply bg-slate-950 text-slate-400 antialiased selection:bg-emerald-400 selection:text-emerald-900;
 }
