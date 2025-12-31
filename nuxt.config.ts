@@ -8,6 +8,11 @@ export default defineNuxtConfig({
    vite: {
       plugins: [tailwindcss()],
    },
+   nitro: {
+      externals: {
+         inline: ["unhead", "@unhead/schema", "@unhead/ssr"]
+      }
+   },
    components: {
       dirs: [
          {
