@@ -13,6 +13,7 @@
     "@nuxt/fonts": "0.12.1",
     "@nuxt/icon": "2.1.1",
     "@nuxt/image": "2.0.0",
+    "@nuxtjs/seo": "3.3.0",
     "@tailwindcss/vite": "^4.1.18",
     "nuxt": "^4.2.2",
     "tailwindcss": "^4.1.18",
