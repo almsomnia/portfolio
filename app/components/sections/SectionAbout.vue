@@ -1,7 +1,7 @@
 <template>
    <section
       id="about"
-      class="mb-36"
+      class="mb-36 [&_p_a]:text-slate-50 [&_p_a]:hover:text-emerald-400 [&_p_a]:font-medium [&_p_a]:transition"
    >
       <div
          class="sticky top-0 lg:hidden -mx-6 px-6 py-4 bg-slate-950/75 backdrop-blur"
@@ -21,7 +21,6 @@
          <a
             href="https://jasamedikatransmedic.com/"
             target="_blank"
-            class="text-slate-50 hover:text-emerald-400 font-medium"
             >Jasa Medika Transmedic</a
          >, alongside managing freelance clients and side projects. This balance
          allows me to continuously sharpen my skills, explore new tools and

@@ -4,11 +4,13 @@ if (import.meta.server) {
       description:
          "Riva Almero is a web developer based in Bandung, Indonesia. He is passionate about crafting pixel-perfect, engaging interfaces that not only look great but also provide an exceptional user experience.",
       ogTitle: "Riva Almero",
-      ogDescription: "Riva Almero is a web developer based in Bandung, Indonesia. He is passionate about crafting pixel-perfect, engaging interfaces that not only look great but also provide an exceptional user experience.",
+      ogDescription:
+         "Riva Almero is a web developer based in Bandung, Indonesia. He is passionate about crafting pixel-perfect, engaging interfaces that not only look great but also provide an exceptional user experience.",
       ogUrl: "https://rivaalmero.me",
       twitterTitle: "Riva Almero",
-      twitterDescription: "Riva Almero is a web developer based in Bandung, Indonesia. He is passionate about crafting pixel-perfect, engaging interfaces that not only look great but also provide an exceptional user experience.",
-      robots: "index, follow",     
+      twitterDescription:
+         "Riva Almero is a web developer based in Bandung, Indonesia. He is passionate about crafting pixel-perfect, engaging interfaces that not only look great but also provide an exceptional user experience.",
+      robots: "index, follow",
    })
 }
 
@@ -151,9 +153,11 @@ onUnmounted(() => {
             />
          </template>
          <footer class="max-w-md text-sm">
-            <p>
-               &copy; {{ new Date().getFullYear() }} Riva Almero. All rights
-               reserved.
+            <p
+               class="[&_a]:font-medium [&_a]:text-slate-50 [&_a]:hover:text-emerald-400 [&_a]:transition"
+            >
+               Built with <a href="https://nuxt.com">Nuxt</a> and
+               <a href="https://tailwindcss.com">Tailwind CSS</a>.
             </p>
          </footer>
       </main>
