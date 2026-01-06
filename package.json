@@ -1,6 +1,7 @@
 {
-  "name": "portfolio2",
+  "name": "riva-almero-portfolio",
   "type": "module",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "NITRO_PRESET=bun nuxt build",
@@ -9,17 +10,22 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "output:pack": "tar -czvf portfolio.tar.gz .output",
-    "build:prepare": "bun run build && bun run output:pack"
+    "build:prepare": "bun run build && bun run output:pack",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'docs: CHANGELOG.md' && bun version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'docs: CHANGELOG.md' && bun version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'docs: CHANGELOG.md' && bun version patch && git push origin && git push origin --tags"
   },
   "dependencies": {
     "@nuxt/fonts": "0.12.1",
     "@nuxt/icon": "2.1.1",
-    "@nuxt/image": "2.0.0",
     "@nuxtjs/seo": "3.3.0",
     "@tailwindcss/vite": "^4.1.18",
     "nuxt": "^4.2.2",
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.25",
     "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "generate-changelog": "^1.8.0"
   }
 }
