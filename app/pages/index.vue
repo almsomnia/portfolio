@@ -26,6 +26,11 @@ const sections = computed(() => {
          label: "Experience",
          component: h(resolveComponent("SectionExperience")),
       },
+      {
+         id: "projects",
+         label: "Projects",
+         component: h(resolveComponent("SectionProject"))
+      }
    ]
 })
 

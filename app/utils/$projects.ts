@@ -3,14 +3,18 @@ export default function () {
       {
          year: "2026",
          project: "Redesign Kota Pontianak Government Website",
+         image: "/img/gov-pnk.png",
+         description:
+            "A concept redesign of the Pontianak City Government website featuring unified navigation, essential public services, and city news in a clean, modern layout. Built with Nuxt.js and Tailwind CSS.",
          madeAt: "",
          builtWith: ["Nuxt", "Tailwind CSS"],
          link: "https://redesign-gov-pnk.rivaalmero.me",
-         highlight: false,
+         highlight: true,
       },
       {
          year: "2025",
          project: "FASKINLink Banten",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: ["Nuxt", "Parse Server", "Jitsi SDK", "Google Maps API"],
          link: "",
@@ -19,14 +23,18 @@ export default function () {
       {
          year: "2025",
          project: "Vrewa — Coffee Shop Landing Page",
+         image: "/img/vrewa.png",
+         description:
+            "A coffee shop website prototype with a relaxed, aesthetic vibe, featuring menu items, friendly navigation, and a promo subscription section. Built with Nuxt.js and Tailwind CSS.",
          madeAt: "",
          builtWith: ["Nuxt", "Tailwind CSS"],
          link: "https://vrewa.rivaalmero.me",
-         highlight: false,
+         highlight: true,
       },
       {
          year: "2025",
          project: "E-Logistik Transmedic",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: ["Nuxt", "Laravel", "PostgreSQL"],
          link: "",
@@ -35,14 +43,16 @@ export default function () {
       {
          year: "2025",
          project: "MedicVerse",
+         description: "",
          madeAt: "TechIndo",
          builtWith: ["Nuxt", "Elysia.js", "Socket.io", "Anime.js"],
          link: "",
-         highlight: false
+         highlight: false,
       },
       {
          year: "2025",
          project: "E-Clinic Transmedic",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: ["Nuxt", "Tailwind CSS"],
          link: "",
@@ -51,6 +61,7 @@ export default function () {
       {
          year: "2025",
          project: "Telemedicine-based Mobile Clinic Banten Sehat",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: ["Nuxt", "Parse Server", "Jitsi SDK", "Google Maps API"],
          link: "",
@@ -59,6 +70,7 @@ export default function () {
       {
          year: "2025",
          project: "Jitsi IFrame SDK",
+         description: "",
          madeAt: "",
          builtWith: ["Node", "TypeScript", "Jitsi SDK"],
          link: "https://npmjs.com/jitsi-iframe-sdk",
@@ -67,6 +79,7 @@ export default function () {
       {
          year: "2024",
          project: "Portal Partner Transmedic",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: ["Nuxt", "Laravel", "MySQL"],
          link: "",
@@ -75,6 +88,7 @@ export default function () {
       {
          year: "2024",
          project: "Telemedicine Transmedic Group Call Service",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: ["Node", "TypeScript", "Socket.io", "Kurento SDK"],
          link: "",
@@ -83,14 +97,16 @@ export default function () {
       {
          year: "2024",
          project: "Bali Mandara Hospital Company Profile",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: ["Laravel", "Tailwind CSS", "MySQL"],
          link: "https://balimandarahospital.com",
-         highlight: false
+         highlight: false,
       },
       {
          year: "2023",
          project: "Telemedicine Transmedic",
+         description: "",
          madeAt: "Jasa Medika Transmedic",
          builtWith: [
             "Nuxt",
@@ -102,7 +118,7 @@ export default function () {
             "Google Maps API",
          ],
          link: "",
-         highlight: false
+         highlight: false,
       },
    ]
 }

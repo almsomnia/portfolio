@@ -15,7 +15,7 @@ onBeforeMount(() => {
 <template>
    <div
       id="cursor"
-      class="pointer-events-none fixed inset-0 z-20 transition duration-300 lg:absolute hidden lg:block"
+      class="pointer-events-none fixed inset-0 z-20 transition duration-300 lg:absolute hidden lg:block mix-blend-screen"
       style="
          background: radial-gradient(
             circle at 0px 0px,
