@@ -1,3 +1,10 @@
+### 1.2.0 (2026-01-07)
+
+##### New Features
+
+*  sections hover ui (3749fa6a)
+*  projects page responsive component (3a627aa4)
+
 #### 1.1.1 (2026-01-07)
 
 ##### Bug Fixes
