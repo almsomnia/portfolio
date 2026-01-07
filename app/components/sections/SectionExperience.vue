@@ -62,13 +62,9 @@ const experiences = computed(() => {
                      <p class="mt-2 text-sm leading-normal text-pretty">
                         {{ exp.description }}
                      </p>
-                     <ul class="flex flex-wrap gap-2 mt-4">
+                     <ul class="flex flex-wrap gap-1 mt-4">
                         <li v-for="skill in exp.skills">
-                           <div
-                              class="flex items-center rounded-full bg-emerald-600/10 px-3 py-1 text-xs font-medium leading-5 text-emerald-400"
-                           >
-                              {{ skill }}
-                           </div>
+                           <Tag :label="skill" />
                         </li>
                      </ul>
                   </div>

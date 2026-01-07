@@ -50,14 +50,11 @@ const selectedProjects = computed(() => {
                      <p class="text-pretty mt-2 text-sm leading-normal">
                         {{ project.description }}
                      </p>
-                     <div class="mt-2 flex flex-wrap gap-1 items-center">
-                        <div
-                           v-for="stack in project.builtWith"
-                           class="flex items-center rounded-full bg-emerald-600/10 px-3 py-1 text-xs font-medium leading-5 text-emerald-400"
-                        >
-                           {{ stack }}
-                        </div>
-                     </div>
+                     <ul class="mt-2 flex flex-wrap gap-1 items-center">
+                        <li v-for="stack in project.builtWith">
+                           <Tag :label="stack" />
+                        </li>
+                     </ul>
                   </div>
                </a>
             </li>

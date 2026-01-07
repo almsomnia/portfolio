@@ -45,12 +45,10 @@ const columns: {
             </template>
             <template #row.builtWith="{ row }">
                <div class="flex flex-wrap gap-1">
-                  <div
+                  <Tag
                      v-for="stack in row.builtWith"
-                     class="flex items-center rounded-full bg-emerald-600/10 px-3 py-1 text-xs font-medium leading-5 text-emerald-400"
-                  >
-                     {{ stack }}
-                  </div>
+                     :label="stack"
+                  />
                </div>
             </template>
             <template #row.link="{ row }">
