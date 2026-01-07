@@ -37,8 +37,9 @@ const experiences = computed(() => {
                   :href="exp.companyLink"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="grid grid-cols-8 gap-4 gap-y-0 lg:gap-y-4 hover:opacity-100 group-hover/list:opacity-50 transition group/item"
+                  class="relative grid grid-cols-8 gap-4 gap-y-0 lg:gap-y-4 hover:opacity-100 group-hover/list:opacity-50 transition group/item"
                >
+                  <div class="absolute -inset-4 -z-10 rounded-lg transition group-hover/item:bg-slate-900/50 group-hover/item:shadow-inner group-hover/item:shadow-slate-700/25" />
                   <div class="col-span-full md:col-span-2">
                      <span
                         class="text-xs font-medium text-slate-500 uppercase tracking-wide"

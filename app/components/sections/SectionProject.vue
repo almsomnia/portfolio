@@ -27,14 +27,15 @@ const selectedProjects = computed(() => {
                   :href="project.link"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="grid grid-cols-8 gap-4 hover:opacity-100 group-hover/list:opacity-50 transition group/item"
+                  class="relative grid grid-cols-8 gap-4 hover:opacity-100 group-hover/list:opacity-50 transition group/item"
                >
+                  <div class="absolute -inset-4 -z-10 rounded-lg transition group-hover/item:bg-slate-900/50 group-hover/item:shadow-inner group-hover/item:shadow-slate-700/25" />
                   <div
                      class="col-span-4 md:col-span-2 order-last md:order-first"
                   >
                      <img
                         :src="project.image ?? 'https://picsum.photos/640/360'"
-                        class="w-full h-auto rounded border border-slate-700 group-hover/item:border-emerald-400 transition"
+                        class="w-full h-auto rounded border border-slate-700 transition"
                      />
                   </div>
                   <div class="col-span-full md:col-span-6">
