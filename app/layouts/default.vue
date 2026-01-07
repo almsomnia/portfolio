@@ -7,7 +7,7 @@ onBeforeMount(() => {
       if (document.body.clientWidth < 768) return
       let x = e.pageX
       let y = e.pageY
-      cursor.style.background = `radial-gradient(circle at ${x}px ${y}px, oklch(69.6% 0.17 162.48 / 20%), transparent 50%)`
+      cursor.style.background = `radial-gradient(circle at ${x}px ${y}px, oklch(69.6% 0.17 162.48 / 15%), transparent 50%)`
    })
 })
 </script>
@@ -15,11 +15,11 @@ onBeforeMount(() => {
 <template>
    <div
       id="cursor"
-      class="pointer-events-none fixed inset-0 -z-10 transition duration-300 lg:absolute hidden lg:block"
+      class="pointer-events-none fixed inset-0 z-20 transition duration-300 lg:absolute hidden lg:block"
       style="
          background: radial-gradient(
             circle at 0px 0px,
-            oklch(69.6% 0.17 162.48 / 20%),
+            oklch(69.6% 0.17 162.48 / 15%),
             transparent 50%
          );
       "

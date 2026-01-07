@@ -154,10 +154,27 @@ onUnmounted(() => {
          </template>
          <footer class="max-w-md text-sm">
             <p
-               class="[&_a]:font-medium [&_a]:text-slate-50 [&_a]:hover:text-emerald-400 [&_a]:transition"
+               class="[&_a]:font-medium [&_a]:text-slate-50 [&_a]:hover:text-emerald-400 [&_a]:transition leading-relaxed"
             >
-               Built with <a href="https://nuxt.com">Nuxt</a> and
-               <a href="https://tailwindcss.com">Tailwind CSS</a>.
+               Built with
+               <a
+                  href="https://nuxt.com"
+                  target="_blank"
+                  >Nuxt</a
+               >
+               and
+               <a
+                  href="https://tailwindcss.com"
+                  target="_blank"
+                  >Tailwind CSS</a
+               >.
+               <br />
+               Heavily inspired by
+               <a
+                  href="https://brittanychiang.com"
+                  target="_blank"
+                  >Brittany Chiang</a
+               >.
             </p>
          </footer>
       </main>

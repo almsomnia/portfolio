@@ -1,0 +1,108 @@
+export default function () {
+   return [
+      {
+         year: "2026",
+         project: "Redesign Kota Pontianak Government Website",
+         madeAt: "",
+         builtWith: ["Nuxt", "Tailwind CSS"],
+         link: "https://redesign-gov-pnk.rivaalmero.me",
+         highlight: false,
+      },
+      {
+         year: "2025",
+         project: "FASKINLink Banten",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: ["Nuxt", "Parse Server", "Jitsi SDK", "Google Maps API"],
+         link: "",
+         highlight: false,
+      },
+      {
+         year: "2025",
+         project: "Vrewa — Coffee Shop Landing Page",
+         madeAt: "",
+         builtWith: ["Nuxt", "Tailwind CSS"],
+         link: "https://vrewa.rivaalmero.me",
+         highlight: false,
+      },
+      {
+         year: "2025",
+         project: "E-Logistik Transmedic",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: ["Nuxt", "Laravel", "PostgreSQL"],
+         link: "",
+         highlight: false,
+      },
+      {
+         year: "2025",
+         project: "MedicVerse",
+         madeAt: "TechIndo",
+         builtWith: ["Nuxt", "Elysia.js", "Socket.io", "Anime.js"],
+         link: "",
+         highlight: false
+      },
+      {
+         year: "2025",
+         project: "E-Clinic Transmedic",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: ["Nuxt", "Tailwind CSS"],
+         link: "",
+         highlight: false,
+      },
+      {
+         year: "2025",
+         project: "Telemedicine-based Mobile Clinic Banten Sehat",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: ["Nuxt", "Parse Server", "Jitsi SDK", "Google Maps API"],
+         link: "",
+         highlight: false,
+      },
+      {
+         year: "2025",
+         project: "Jitsi IFrame SDK",
+         madeAt: "",
+         builtWith: ["Node", "TypeScript", "Jitsi SDK"],
+         link: "https://npmjs.com/jitsi-iframe-sdk",
+         highlight: false,
+      },
+      {
+         year: "2024",
+         project: "Portal Partner Transmedic",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: ["Nuxt", "Laravel", "MySQL"],
+         link: "",
+         highlight: false,
+      },
+      {
+         year: "2024",
+         project: "Telemedicine Transmedic Group Call Service",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: ["Node", "TypeScript", "Socket.io", "Kurento SDK"],
+         link: "",
+         highlight: false,
+      },
+      {
+         year: "2024",
+         project: "Bali Mandara Hospital Company Profile",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: ["Laravel", "Tailwind CSS", "MySQL"],
+         link: "https://balimandarahospital.com",
+         highlight: false
+      },
+      {
+         year: "2023",
+         project: "Telemedicine Transmedic",
+         madeAt: "Jasa Medika Transmedic",
+         builtWith: [
+            "Nuxt",
+            "SASS",
+            "Parse Server",
+            "Socket.io",
+            "Kurento SDK",
+            "Jitsi SDK",
+            "Google Maps API",
+         ],
+         link: "",
+         highlight: false
+      },
+   ]
+}
