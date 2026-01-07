@@ -11,7 +11,7 @@ const selectedProjects = computed(() => {
       class="mb-36"
    >
       <div
-         class="sticky top-0 lg:hidden -mx-6 px-6 py-4 bg-slate-950/75 backdrop-blur"
+         class="sticky top-0 z-10 lg:hidden -mx-6 px-6 py-4 bg-slate-950/75 backdrop-blur"
       >
          <h2 class="uppercase text-sm font-bold text-slate-200 tracking-widest">
             Projects
