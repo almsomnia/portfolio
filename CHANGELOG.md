@@ -1,3 +1,13 @@
+#### 1.1.1 (2026-01-07)
+
+##### Bug Fixes
+
+*  sections z-index (bbe9b220)
+
+##### Refactors
+
+*  add Tag component (e4980033)
+
 ### 1.1.0 (2026-01-07)
 
 ##### New Features
