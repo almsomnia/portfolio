@@ -15,7 +15,7 @@ const columns: {
 </script>
 
 <template>
-   <div class="lg:py-24">
+   <main class="lg:py-24">
       <div>
          <NuxtLink
             to="/"
@@ -35,6 +35,7 @@ const columns: {
       </div>
       <div class="relative w-full mt-16">
          <AppTable
+            class="hidden lg:block"
             :rows="projects"
             :columns="columns"
          >
@@ -67,6 +68,48 @@ const columns: {
                </a>
             </template>
          </AppTable>
+         <ol class="group/list divide-y divide-slate-300/10 lg:hidden">
+            <li
+               v-for="project in projects"
+               class="py-6 transition"
+            >
+               <div
+                  class="grid grid-cols-8 gap-4 hover:opacity-100 group-hover/list:opacity-50 transition group/item"
+               >
+                  <div class="col-span-full md:col-span-6">
+                     <div
+                        class="font-medium text-xs tracking-wide leading-snug mb-2"
+                     >
+                        {{ project.year }}
+                     </div>
+                     <h3
+                        class="font-medium leading-snug text-slate-200 group-hover/item:text-emerald-400 transition"
+                     >
+                        {{ project.project }}
+                     </h3>
+                     <ul class="mt-2 flex flex-wrap gap-1 items-center">
+                        <li v-for="stack in project.builtWith">
+                           <Tag :label="stack" />
+                        </li>
+                     </ul>
+                     <a
+                        v-if="project.link"
+                        :href="project.link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="mt-2 text-sm transition inline-block"
+                     >
+                        {{ project.link }}
+                        <Icon
+                           v-if="project.link"
+                           name="heroicons:arrow-up-right-16-solid"
+                           class="align-middle translate-y-px group-hover/item:-translate-y-1 group-hover/item:translate-x-1 transition-transform"
+                        />
+                     </a>
+                  </div>
+               </div>
+            </li>
+         </ol>
       </div>
-   </div>
+   </main>
 </template>
