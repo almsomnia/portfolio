@@ -159,7 +159,7 @@ onUnmounted(() => {
          </template>
          <footer class="max-w-md text-sm">
             <p
-               class="[&_a]:font-medium [&_a]:text-slate-50 [&_a]:hover:text-emerald-400 [&_a]:transition leading-relaxed"
+               class="text-slate-500 [&_a]:font-medium [&_a]:text-slate-400 [&_a]:hover:text-emerald-400 [&_a]:transition leading-relaxed"
             >
                Built with
                <a
