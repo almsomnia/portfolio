@@ -1,3 +1,15 @@
+### 1.1.0 (2026-01-07)
+
+##### New Features
+
+*  project section (7e5db69c)
+*  projects page (596720d0)
+
+##### Bug Fixes
+
+*  footer text contrast (fa253a9a)
+*  minor typography (df424a1e)
+
 ## 1.0.0 (2026-01-06)
 
 ##### Chores
